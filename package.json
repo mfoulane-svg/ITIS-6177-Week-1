@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mfoulane-svg/ITIS-6177-Week-1/issues"
   },
-  "homepage": "https://github.com/mfoulane-svg/ITIS-6177-Week-1#readme"
+  "homepage": "https://github.com/mfoulane-svg/ITIS-6177-Week-1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
